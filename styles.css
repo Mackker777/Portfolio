@@ -1,0 +1,197 @@
+/* Dondre Robinson ID:2405433  */
+*{
+    --grey: #d3d1cf;
+    --bottom: #252529;
+    --rose: #cda6a5;
+    margin: 0;
+  /* scrollbar-width:; */
+  scrollbar-color: var(--bottom);
+  font-family:'Aileron', 'Montserrat', sans-serif;
+
+}
+body{
+    margin: .1em;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* height: 100vh; */
+    width: auto;
+    background-color: var(--grey);
+    border-bottom: 5px solid var(--bottom);
+    border-right: 5px solid var(--bottom);
+
+}
+.wrapper{
+  padding: 0 .5em 0 .5em;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+h2{
+  border-bottom: 3px solid var(--rose);
+  width: 90%;
+  align-self: center;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+header{
+    margin: 0.1em 0 0 0;
+  border-bottom: 3px solid var(--rose);
+  border-right: 3px solid var(--rose);
+  height: fit-content;
+  width: max-content; 
+  font-size: 1.1rem;
+
+}
+header ul{
+    padding-left: 0;
+    padding-right: 2.5em;
+    list-style: none;
+    display:inline-flex;
+    overflow: hidden;
+}
+header li{
+  width: fit-content;
+  padding-right: 7%;
+}
+header li:hover{
+    background-color: var(--rose);
+}
+header a:hover{
+    color: white;
+
+}
+.pic{
+    min-height: 60vh;
+    border-bottom: var(--rose);
+    padding: 0;
+    margin: 0;
+}
+
+
+.holder{
+    /* display: grid; */
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* align-self: center; */
+ 
+}
+.pic{
+    max-height: 45vh;
+    border-bottom: 3px solid var(--rose);
+
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin: 1%;
+    padding: 2%;
+    height: fit-content;
+    width: fit-content;
+}
+
+#menu li{
+    margin-left: 1rem;
+}
+
+footer{
+    margin-top: .5em;
+    background-color: var(--rose);
+    width: 100%;
+}
+
+/* Personal */
+section{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+
+  }
+  section ul{
+    width: fit-content;
+  }
+  section li{
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal !important;
+  }
+.eg{
+    width: 65%;
+    border: 3px solid var(--rose);
+  }
+  .vol{
+    border: 3px solid var(--rose);
+    max-width: 70%;
+    max-height: 60vh;
+  }
+  ul{
+    height: fit-content;
+    list-style: none;
+  }
+  
+table{
+    max-width: 95%;
+    border-left: 3px solid #aeaeb2;
+    border-top: 3px solid #aeaeb2;
+    border-bottom: 3px solid #252529;
+    border-right: 3px solid #252529;
+    text-align: left;
+    background-color: var(--grey);
+}
+th,td {
+    border: 1px solid rgb(160 160 160);
+  }
+  .inner{
+    margin-left: 5%;
+  border-top: 3px solid white;
+  }
+  .inner a {
+      font-style: italic;
+  }
+  .pal{
+    max-width: 50%;
+    align-self: center;
+    border: 3px solid var(--rose);
+
+  }
+  /* Professional */
+  
+  .pdf:active{
+    border: none;
+
+  }
+  .statement{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /* h4 personal */
+  .statement h2,.statement h4{
+    align-self: center;
+    margin: .5em;
+  }
+ .pdf{
+    align-self: center;
+    margin-top: 1%;
+    border: 5px solid var(--rose);
+    justify-self: center;
+    border-radius: .5%;
+    width: 80%;
+    height: 80vh;
+  }
+/* Dondre Robinson ID:2405433  */

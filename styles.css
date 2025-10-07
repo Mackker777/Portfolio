@@ -13,7 +13,6 @@ body{
     margin: .1em;
     padding-left: 1%;
     padding-right: 1%;
-    /* height: 100vh; */
     width: auto;
     background-color: var(--grey);
     border-bottom: 5px solid var(--bottom);
